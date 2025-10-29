@@ -1,0 +1,138 @@
+:root{
+    --DMC2_font:"Merriweather", serif;
+
+}
+
+
+body{
+    background-image: url(../../imagenes/fondo.png);
+}
+
+
+
+.regresar{
+    text-decoration: none;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    font-size: 25px;
+    color: red;
+    padding: 5px;
+
+    border-radius: 5px;
+    outline: red solid;
+    background-color: black;
+}
+
+h2{
+    font-family: var(--DMC2_font);
+}
+
+.ppersonajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 100px 0 30px; 
+}
+
+.devilTrigger{
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.DT-P{
+    text-decoration: none;
+
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.DT{
+    width: 300px;
+
+}
+
+.DT-DMC2{
+    width: 300px;
+}
+
+.luciaDT{
+    width: 200px;
+    margin: auto;
+}
+
+.modall_apertura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+     margin: 30px;
+}
+
+.modal {
+ display: none;
+ 
+ }
+
+.modal:target {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #000000;
+    padding: 20px; 
+    border-radius: 5px;
+    
+    outline: rgb(124, 34, 34) solid 5px;
+    position: fixed; 
+    top: 20px;
+    width: 300px;
+}
+
+h2{
+    color: white;
+    margin: 30px auto 10px ;
+}
+
+.close {
+  position: absolute; 
+  top: 10px; 
+  right: 10px;
+  text-decoration: none;
+  color: red;
+
+  font-size: 25px;
+}
+
+.IMG_personaje{
+    margin: auto;
+    width: 250px;
+}
+
+img{
+    width: 200px;
+}
+
+p{
+    width: 290px;     
+    overflow: hidden; 
+    margin: 5px;
+
+    color: white;
+}
+

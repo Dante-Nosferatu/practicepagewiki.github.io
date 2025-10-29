@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(0, 0, 0, 0.97) ;
+    font-family: "Merriweather", serif;
+}
+
+
+
+.lista_franquisias{
+  display: flex;
+  justify-content: center;
+  color: rgb(75, 36, 36);
+  text-shadow: 
+    -2px -2px 0 hsl(0, 100%, 50%),
+     2px -2px 0 hsl(0, 100%, 50%),
+    -2px  2px 0 hsl(0, 100%, 50%),
+     2px  2px 0 hsl(0, 100%, 50%);
+
+  font-size: 100px;
+  
+  
+}
+
+
+#mute-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.DMC_links{
+    margin: 20px;
+    outline: 10px solid rgba(255, 0, 0, 0.196);    
+    
+    display: grid;
+    grid-template-columns: 1fr ;
+        
+}
+
+
+.Devil_tittle{
+    width: 350px; 
+    margin: 50px auto 50px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+a{
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+}
+
+
+.DMC_GAMES_LOGOS{
+   width: 300px; 
+
+   
+}
+
+
+
+.DMC_IMG{
+border-radius: 10px;
+  transition: 0.3s;
+}
+
+
+
+
+.DMC_IMG:hover {
+  box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 42, 0), 0 0 40px rgb(255, 0, 0);
+}
+  
+
+.Extras{
+  color: white;
+  list-style: none;
+  display: flex;
+    justify-content: center;
+}
+
+
+.soon{color: white;
+text-align: center;}

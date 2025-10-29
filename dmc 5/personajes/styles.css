@@ -1,0 +1,151 @@
+body{
+    background-image: url(../imagenes/devil-may-cry-5-game-4k-hd-games-4k-wallpaper-image-2dd9he1dab9vc7sx.jpg);
+    background-position: center;
+    background-size: 1500px;
+}
+
+
+.regresar{
+    text-decoration: none;
+
+    color: red;
+    outline: red solid 3px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: black;
+    font-size: 20px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}   
+
+
+.ppersonajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+
+    flex-direction: column;
+
+    
+}
+
+
+.modall_apertura{
+    display: flex;
+    justify-content: center;
+
+     margin: 10px;
+
+     text-decoration: none;
+     font-size: 40px;
+     font-family: var(--DM);
+     
+}
+
+.modal {
+ display: none;
+ }
+
+.modal:target {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #000000df;
+    padding: 20px; 
+    border-radius: 5px;
+    
+    outline: rgb(124, 34, 34) solid 5px;
+    position: absolute; 
+    top: 20px;
+    width: 300px;
+}
+
+
+.DDANTE{
+    color: red;
+    text-shadow: 
+    -1px -1px 0 hsl(0, 0%, 0%),
+     1px -1px 0 hsl(0, 0%, 0%),
+    -1px  1px 0 hsl(0, 0%, 0%),
+     1px  1px 0 hsl(0, 0%, 0%);
+}
+
+.NNERO{
+    color: rgb(145, 145, 243);
+    text-shadow: 
+    -1px -1px 0 hsl(0, 0%, 0%),
+     1px -1px 0 hsl(0, 0%, 0%),
+    -1px  1px 0 hsl(0, 0%, 0%),
+     1px  1px 0 hsl(0, 0%, 0%);
+}
+
+.LLADY{
+    color: white;
+    text-shadow: 
+    -1px -1px 0 hsl(0, 0%, 0%),
+     1px -1px 0 hsl(0, 0%, 0%),
+    -1px  1px 0 hsl(0, 0%, 0%),
+     1px  1px 0 hsl(0, 0%, 0%);
+}
+
+.TTRISH{
+    color: yellow;
+    text-shadow: 
+    -1px -1px 0 hsl(0, 0%, 0%),
+     1px -1px 0 hsl(0, 0%, 0%),
+    -1px  1px 0 hsl(0, 0%, 0%),
+     1px  1px 0 hsl(0, 0%, 0%);
+}
+
+.VVERGIL{
+    color: rgb(105, 92, 255);
+    text-shadow: 
+    -1px -1px 0 hsl(0, 0%, 0%),
+     1px -1px 0 hsl(0, 0%, 0%),
+    -1px  1px 0 hsl(0, 0%, 0%),
+     1px  1px 0 hsl(0, 0%, 0%);
+}
+
+.VV{
+  width: 120px;
+  margin: auto;
+}
+
+.IMG_personaje{
+    margin: auto;
+     width: 150px;
+}
+
+p{
+    width: 290px;     
+    overflow: hidden; 
+    margin: 5px;
+
+    color: white;
+}
+
+h2{
+    color: white;
+    margin: 30px auto 10px ;
+}
+
+.close {
+  position: absolute; 
+  top: 10px; 
+  right: 10px;
+  text-decoration: none;
+  color: red;
+
+  font-size: 25px;
+}

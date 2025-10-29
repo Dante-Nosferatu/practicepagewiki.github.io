@@ -1,0 +1,47 @@
+body{
+    background-image: url(./imagenes/Temen.png) ; 
+}
+
+
+.regresar{
+    text-decoration: none;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}   
+
+
+.img_letras{
+    width: 150px;
+}
+
+
+.Devil_tittle{
+
+    display: flex;
+    justify-content: center;
+
+    margin: 100px 5px 20px;
+
+    width: 350px;
+
+}
+
+.links_DMC3{
+     display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+    text-decoration: none;
+    font-family: var(--DMC2_font);
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(177, 177, 177);
+    text-shadow: 
+    -2px -2px 0 hsl(0, 0%, 0%),
+     2px -2px 0 hsl(0, 0%, 0%),
+    -2px  2px 0 hsl(0, 0%, 0%),
+     2px  2px 0 hsl(0, 0%, 0%);
+}

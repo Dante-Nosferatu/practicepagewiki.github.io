@@ -1,0 +1,224 @@
+**:root{
+    --Stardos-Stencil: "Stardos Stencil";
+}
+
+body{
+    background-image: url(./perso-images/Screenshot\ 2025-10-23\ at\ 11-02-21\ DmC\ Devil\ May\ Cry\ Devil\ May\ Cry\ Wiki\ Fandom.png);
+     background-size: cover;
+     
+}
+
+
+.regresar{
+    text-decoration: none;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    padding: 5px;
+    background-color: black;
+    font-size: 25px;
+    color: red;
+    outline: red solid;
+    border-radius: 5px;
+}
+
+
+.ppersonajes{
+    display: flex;    
+    justify-content: center;
+
+    margin-top: 90px;
+
+    padding: 0px 0;
+
+    flex-direction: column;
+
+    
+}
+
+.titulo_personajes{
+   display: flex;
+   justify-content: center;
+   
+   margin: 0px;
+   
+
+    
+     color: hsl(0, 0%, 0%);
+  text-shadow: 
+    -2px -2px 0 rgb(192, 73, 73),
+     2px -2px 0 rgb(192, 73, 73),
+    -2px  2px 0 rgb(192, 73, 73),
+     2px  2px 0 rgb(192, 73, 73);
+    font-family: var(--tamgerine);
+    font-size: 70px;
+    text-align: center;
+}
+
+
+.open-modal{
+  text-decoration: none;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+
+  text-align: center;
+ 
+  color: hsl(0, 0%, 0%);
+  text-shadow: 
+    -2px -2px 0 rgb(192, 73, 73),
+     2px -2px 0 rgb(192, 73, 73),
+    -2px  2px 0 rgb(192, 73, 73),
+     2px  2px 0 rgb(192, 73, 73);
+}
+
+
+.KAT{
+    color: hsl(0, 0%, 0%);
+  text-shadow: 
+    -2px -2px 0 rgb(255, 251, 0),
+     2px -2px 0 rgb(255, 251, 0),
+    -2px  2px 0 rgb(255, 251, 0),
+     2px  2px 0 rgb(255, 251, 0);
+}
+
+.imagen_INDI{
+    width: 290px;
+    padding: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+.modal:target {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.close1{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--Metal_Mania);
+  color: red;
+  border-radius: 3px;
+}
+
+.modal-content {
+    background: #111;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+    outline: red solid;
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.slides .slide {
+    display: none;
+    position: relative;
+}
+
+#img1_a:checked ~ .slides #s1_a,
+#img2_a:checked ~ .slides #s2_a,
+#img3_a:checked ~ .slides #s3_a,
+#img4_a:checked ~ .slides #s4_a,
+#img5_a:checked ~ .slides #s5_a,
+#img6_a:checked ~ .slides #s6_a,
+#img7_a:checked ~ .slides #s7_a {
+    display: block;
+}
+
+
+#img1_b:checked ~ .slides #s1_b,
+#img2_b:checked ~ .slides #s2_b,
+#img3_b:checked ~ .slides #s3_b {
+    display: block;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.arrows label {
+    cursor: pointer;
+    font-size: 40px;
+    margin: 0 -15px;
+    color: red; 
+    transition: background 0.3s;
+    user-select: none;
+}
+
+.arrows label:hover {
+    background: rgba(255,0,0,0.7);
+}
+
+.Imagen_char{
+    width: 200px;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.Imagen_charDT{
+    width: 250px;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+
+.cube_char{
+    width: 280px;
+}
+
+
+
+.contenido{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    outline: red solid;
+    width: 350px;
+    color: white;
+    text-align: center;
+}
+
+
+.close { 
+      top: 80px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: var(--Metal_Mania);
+    color: red;
+    outline: red solid;
+    padding: 5px;
+    border-radius: 3px;
+    outline: red solid;
+}
+

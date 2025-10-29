@@ -1,0 +1,61 @@
+*:root{
+    --DM: "DM Serif Text", serif;
+}
+
+
+body{
+    background-image: url(./imagenes/9TY5Trgq3fcBdKY_qnIOLZueySTs8VRd90VdmciMwMU.png);
+}
+
+
+
+
+
+.regresar{
+    text-decoration: none;
+
+    color: red;
+    outline: red solid 3px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: black;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}   
+
+
+.img_letras{
+    width: 150px;
+}
+
+
+.Devil_tittle{
+
+    display: flex;
+    justify-content: center;
+
+    margin: 100px 5px 20px;
+
+    width: 350px;
+
+}
+
+.links_DMC4{
+     display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+    text-decoration: none;
+    font-family: var(--DMC2_font);
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    text-shadow: 
+    -0px -0px 0 hsl(0, 0%, 0%),
+     2px -0px 0 hsl(0, 0%, 0%),
+    -0px  2px 0 hsl(0, 0%, 0%),
+     2px  2px 0 hsl(0, 0%, 0%);
+}

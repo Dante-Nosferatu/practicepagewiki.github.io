@@ -1,0 +1,193 @@
+*:root{
+    --tamgerine: "Tangerine";
+}
+
+body {
+    background-image: url(../imagene/devil-may-cry-1-remake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     
+}
+
+
+
+.regresar{
+    text-decoration: none;
+
+    position: fixed;
+  top: 20px;   
+  left: 20px;
+
+  padding: 5px;
+
+    font-size: 25px;
+    color: red;
+    outline: red solid;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.EEnemies{
+  margin: 100px 0;
+}
+
+.titulo_personajes{
+    display: flex;
+    justify-content: center;  
+   
+
+    font-family: "Parisienne";
+    color: rgb(233, 20, 20);
+
+    font-size: 50px;
+    text-align: center;
+}
+
+.open-modal{
+  text-decoration: none;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+
+  text-align: center;
+ 
+  color: hsl(272, 75%, 27%);
+  text-shadow: 
+    -2px -2px 0 rgb(76, 76, 76),
+     2px -2px 0 rgb(76, 76, 76),
+    -2px  2px 0 rgb(76, 76, 76),
+     2px  2px 0 rgb(76, 76, 76);
+}
+
+
+.modal {
+  position: fixed;
+  top: -20px; left: 0;
+  width: 100%; height: 105%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.modal:target {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenido{
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    outline: red solid;
+    width: 350px;
+    color: white;
+    text-align: center;    
+}
+
+
+.close { 
+    top: 80px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: var(--Metal_Mania);
+    color: red;
+    outline: red solid;
+    padding: 5px;
+    border-radius: 3px;
+    outline: red solid;
+    background-color: black;
+}
+
+.IMG_personaje{
+    width: 350px;
+    padding: 20px 0;
+}
+
+/*  */
+
+
+
+
+input[type="radio"] {
+    display: none;
+}
+
+.slides .slide {
+    display: none;
+    position: relative;
+}
+
+#img1_a:checked ~ .slides #s1_a,
+#img2_a:checked ~ .slides #s2_a{
+    display: block;
+}
+
+#img1_b:checked ~ .slides #s1_b,
+#img2_b:checked ~ .slides #s2_b{
+    display: block;
+}
+
+
+.Imagen_char{
+    width: 200px;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.arrows label {
+    cursor: pointer;
+    font-size: 40px;
+    margin: 0 -10px;
+    color: red; 
+    transition: background 0.3s;
+    user-select: none;
+}
+
+.arrows label:hover {
+    background: rgba(255,0,0,0.7);
+}
+
+.close1{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: var(--Metal_Mania);
+  color: red;
+  border-radius: 3px;
+}
+
+.Imagen_char{
+  width: 300px;
+}
+
+.modal-content {
+    background: #111;
+    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 3px;
+    position: relative;
+    text-align: center;
+    color: white;
+    outline: red solid;
+}

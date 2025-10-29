@@ -1,0 +1,150 @@
+*:root{
+    --DM: "DM Serif Text", serif;
+}
+
+
+
+
+body{
+    background-image: url(../imagenes/Fortuna_04.png);
+
+     height: 100%;
+    margin: 0;
+}
+
+
+.regresar{
+    text-decoration: none;
+
+    color: red;
+    outline: red solid 3px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: black;
+    font-size: 20px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}   
+
+
+
+.ppersonajes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+
+    flex-direction: column;
+
+    
+}
+
+
+
+
+.DDANTE{
+    color: red;
+}
+
+.NNERO{
+    color: rgb(145, 145, 243);
+}
+
+.LLADY{
+    color: white;
+}
+
+.TTRISH{
+    color: yellow;
+}
+
+.VVERGIL{
+    color: rgb(105, 92, 255);
+}
+
+.KKYRIE{
+    color: orange;
+}
+
+.modall_apertura{
+    display: flex;
+    justify-content: center;
+
+     margin: 10px;
+
+     text-decoration: none;
+     font-size: 40px;
+     font-family: var(--DM);
+     
+}
+
+.modal {
+ display: none;
+ }
+
+.modal:target {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #000000;
+    padding: 20px; 
+    border-radius: 5px;
+    
+    outline: rgb(124, 34, 34) solid 5px;
+    position: absolute; 
+    top: 20px;
+    width: 300px;
+}
+
+h2{
+    color: white;
+    margin: 30px auto 10px ;
+}
+
+.close {
+  position: absolute; 
+  top: 10px; 
+  right: 10px;
+  text-decoration: none;
+  color: red;
+
+  font-size: 25px;
+}
+
+.IMG_personaje{
+    margin: auto;
+     width: 200px;
+}
+
+.lady{
+    width: 150px;
+}
+
+.trish{
+    width: 140px;
+}
+
+.Kyrie{
+    width: 70px;
+}
+
+
+
+p{
+    width: 290px;     
+    overflow: hidden; 
+    margin: 5px;
+
+    color: white;
+}
+

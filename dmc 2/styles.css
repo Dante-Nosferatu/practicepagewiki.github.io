@@ -1,0 +1,48 @@
+:root{
+    --DMC2_font:"Merriweather", serif;
+
+}
+
+
+body{background-image: url(./qob2naaxyxhd1.jpeg);
+}
+
+.regresar{
+    text-decoration: none;
+
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    font-size: 25px;
+    color: red;
+    padding: 0;
+}
+
+.Devil_tittle{
+    width: 350px; 
+    margin: 40px 5px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.links_DMC2{
+    display: flex;
+    justify-content: center;
+
+    padding: 10px;
+
+    text-decoration: none;
+    font-family: var(--DMC2_font);
+    font-size: 40px;
+    color: rgb(177, 177, 177);
+    text-shadow: 
+    -2px -2px 0 hsl(0, 100%, 30%),
+     2px -2px 0 hsl(0, 100%, 30%),
+    -2px  2px 0 hsl(0, 100%, 30%),
+     2px  2px 0 hsl(0, 100%, 30%);
+}
+
+

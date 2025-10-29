@@ -1,0 +1,190 @@
+*:root{
+    --DM: "DM Serif Text", serif;
+}
+
+
+
+
+body{
+   
+    background-image: url(../imagenes/divinitystatuedmc4.png);
+
+}
+
+
+
+.regresar{
+    text-decoration: none;
+
+    color: red;
+    outline: red solid 3px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: black;
+    font-size: 20px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}   
+
+
+.armas_fuego{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 90px auto 10px;
+
+    font-family: var(--Merriweather); 
+    font-size: 45px;
+    font-style: italic;
+    color: red;
+  
+}
+
+.AARMAS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 0;
+
+    font-family: var(--DM);
+
+    flex-direction: column;    
+}
+
+
+.modall_apertura{
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    color: red;
+    font-family: var(--Merriweather); 
+    font-size: 40px;
+    
+    margin: 15px auto;
+}
+
+
+.img_editar{
+    width: 300px;
+}
+
+.darts{
+    width: 150px;
+}
+
+.modal {
+ display: none;
+ position: fixed;
+ top: 0;
+ left: 190px;
+ }
+
+.modal:target {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #000000;
+    padding: 20px; 
+    border-radius: 5px;
+    
+    outline: rgb(124, 34, 34) solid 5px;
+    position: absolute; 
+    top: 20px;
+    width: 250px;
+}
+
+h2{
+    color: white;
+    margin: 30px auto 10px ;
+}
+
+.close {
+    position: absolute; 
+    top: 10px;
+    right: 10px;
+    
+  text-decoration: none;
+  color: red;
+
+  font-size: 25px;
+}
+
+.IMG_arma{
+    margin: auto;
+     width: 240px;
+}
+
+.IMG_arma2{
+    margin: auto;
+     width: 220px;
+}
+
+.rebe{
+    width: 120px;
+}
+
+.descripcion{
+    width: 250px;     
+    overflow: hidden; 
+    margin: 5px;
+
+    color: white;
+
+    position: relative;
+    right: 5px;
+}
+
+
+
+
+
+.armas_blancas{
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 0;
+    padding: 0 30px;
+
+    font-family: var(--Merriweather); 
+    font-size: 50px;
+    font-style: italic;
+    color: red;
+
+    text-align: center;
+}
+
+details[open] summary {
+  font-weight: bold;
+}
+
+.WModal{
+    width: 300px;
+}
+
+.Luci{
+    width: 130px;
+}
+
+.RedQ{  
+    width: 120px;
+}
+
+.BareK{
+    width: 300px;
+}
