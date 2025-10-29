@@ -33,11 +33,15 @@ body{
 }
 
 .DMC_links{
-    margin: 20px;
+    margin: 10px auto;
     outline: 10px solid rgba(255, 0, 0, 0.196);    
     
     display: grid;
     grid-template-columns: 1fr ;
+
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
         
 }
 
@@ -61,7 +65,7 @@ a{
 
 
 .DMC_GAMES_LOGOS{
-   width: 300px; 
+   width: 320px; 
 
    
 }

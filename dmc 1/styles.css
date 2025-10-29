@@ -21,7 +21,7 @@ body{
 
 .Devil_tittle{
     width: 350px; 
-    margin: 40px 5px;
+    margin: 40px auto;
     
     display: flex;
     justify-content: center;
