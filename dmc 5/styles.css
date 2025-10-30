@@ -1,7 +1,9 @@
 
 body{
     background-image: url(./imagenes/dmc\ 5\ background.jpg);
-    background-size: 370px;
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center 0;
 }
 
 

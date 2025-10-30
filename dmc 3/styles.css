@@ -1,5 +1,8 @@
 body{
-    background-image: url(./imagenes/Temen.png) ; 
+    background-image: url(./imagenes/temen\ ni\ gtu.jpg) ; 
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: center top 0;
 }
 
 
@@ -9,6 +12,13 @@ body{
     position: absolute;
     top: 20px;
     left: 20px;
+
+    font-size: 25px;
+    color: red;
+    outline: red solid;
+    border-radius: 3px;
+    background-color: black;
+    padding: 2px;
 }   
 
 
@@ -22,7 +32,7 @@ body{
     display: flex;
     justify-content: center;
 
-    margin: 100px 5px 20px;
+    margin: 100px auto 20px;
 
     width: 350px;
 

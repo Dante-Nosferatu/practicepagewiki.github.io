@@ -21,16 +21,7 @@ body{
 }
 
 
-#mute-btn {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  padding: 10px;
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-}
+
 
 .DMC_links{
     margin: 10px auto;

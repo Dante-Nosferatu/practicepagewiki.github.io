@@ -4,7 +4,10 @@
 
 
 body{
-    background-image: url(./imagenes/9TY5Trgq3fcBdKY_qnIOLZueySTs8VRd90VdmciMwMU.png);
+    background-image: url(./imagenes/hq720.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    background-position: center 0;
 }
 
 
@@ -36,15 +39,16 @@ body{
     display: flex;
     justify-content: center;
 
-    margin: 100px 5px 20px;
+    margin: auto;
 
-    width: 350px;
+    width: 400px;
 
 }
 
 .links_DMC4{
-     display: flex;
+    display: flex;
     justify-content: center;
+    
 
     padding: 10px;
 

@@ -7,8 +7,8 @@
 body{
     background-image: url(./imagenes/da185f8f-d913-4265-98fc-613176193dfc.sized-1000x1000-1-900x507.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: 1550px ;
+    background-position: center;    
 }
 
 
@@ -34,7 +34,7 @@ body{
     display: flex;
     justify-content: center;
 
-    margin: 80px auto 0;
+    margin: 90px auto 0;
 
     width: 280px;
 
