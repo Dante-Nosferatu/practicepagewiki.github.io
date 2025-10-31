@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../imagene/devil-may-cry-1-remake.jpg);
+    background-image: url(../imagene/devil-may-cry-1-remake.webp);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -72,8 +72,6 @@ body {
   display: none;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .modal:target {
